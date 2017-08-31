@@ -1,0 +1,27 @@
+{
+  "name": "xmlon",
+  "version": "1.0.0",
+  "description": "Javascript object to XML mimicking JSON.stringify and JSON.parse",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlaanderson/xmlon.git"
+  },
+  "keywords": [
+    "XML",
+    "JSON"
+  ],
+  "author": "Michael Anderson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlaanderson/xmlon/issues"
+  },
+  "homepage": "https://github.com/mlaanderson/xmlon#readme",
+  "dependencies": {
+    "sax": "^1.2.4",
+    "xml-writer": "^1.7.0"
+  }
+}
