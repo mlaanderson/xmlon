@@ -190,8 +190,6 @@ function Stringify(value, replacer = undefined, space = undefined) {
 
     value = clone(value);
 
-    rootNode = rootNode || 'root';
-
     var writer = new XMLWriter(space);
 
     function getTagname(value) {
